@@ -1,0 +1,107 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.proflie {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.proflie img {
+    width: 100%;
+}
+
+hr {
+    margin: 0.5rem 0;
+}
+
+.personal {
+    margin: 1rem 0;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+table, td, th {
+    border: 1px solid;
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+.contact {
+    margin: 0.5rem;
+}
+
+/* contact page */
+
+.form-container {
+    padding: 16px;
+    width: 40%;
+    border: 1px solid #eee;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form input, select, textarea {
+    border: 1px solid gray;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+select {
+    height: 30px;
+}
+
+th {
+    background: rgb(221, 187, 144);
+}
+
+th,td {
+    padding: 8px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-submit {
+    background: rgb(112, 220, 112);
+    color: rgb(8, 7, 7);
+}
